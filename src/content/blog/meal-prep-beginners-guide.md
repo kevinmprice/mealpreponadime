@@ -4,7 +4,7 @@ excerpt: "Learn how to meal prep like a pro. This step-by-step guide covers ever
 date: "2026-02-11"
 category: "Guides"
 heroImage: "/images/blog/meal-prep-beginners-guide.jpg"
-heroAlt: "Colorful meal prep containers filled with healthy food"
+heroAlt: "Meal Prep 101 - colorful meal prep containers with chicken, vegetables, eggs, fruits, and healthy snacks"
 prepTime: "2 hours"
 servings: 20
 costPerServing: "2.50"
