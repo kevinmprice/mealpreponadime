@@ -6,7 +6,6 @@ category: "Gear Reviews"
 heroImage: "/images/blog/best-meal-prep-containers.jpg"
 heroAlt: "Various meal prep containers stacked and organized"
 prepTime: ""
-servings: 
 costPerServing: ""
 featured: false
 draft: false
