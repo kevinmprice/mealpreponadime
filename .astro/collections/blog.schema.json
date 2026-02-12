@@ -1,0 +1,78 @@
+{
+  "$ref": "#/definitions/blog",
+  "definitions": {
+    "blog": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "date": {
+          "anyOf": [
+            {
+              "type": "string",
+              "format": "date-time"
+            },
+            {
+              "type": "string",
+              "format": "date"
+            },
+            {
+              "type": "integer",
+              "format": "unix-time"
+            }
+          ]
+        },
+        "category": {
+          "type": "string"
+        },
+        "heroImage": {
+          "type": "string"
+        },
+        "heroAlt": {
+          "type": "string"
+        },
+        "prepTime": {
+          "type": "string"
+        },
+        "cookTime": {
+          "type": "string"
+        },
+        "totalTime": {
+          "type": "string"
+        },
+        "servings": {
+          "type": "number"
+        },
+        "costPerServing": {
+          "type": "string"
+        },
+        "calories": {
+          "type": "number"
+        },
+        "featured": {
+          "type": "boolean",
+          "default": false
+        },
+        "draft": {
+          "type": "boolean",
+          "default": false
+        },
+        "$schema": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "title",
+        "excerpt",
+        "date",
+        "category"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

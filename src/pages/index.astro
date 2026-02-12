@@ -1,0 +1,350 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog'))
+  .filter(post => !post.data.draft)
+  .sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf())
+  .slice(0, 6);
+---
+
+<BaseLayout title="MealPrepOnADime — Budget Meal Prep Recipes & Guides">
+  <section class="hero">
+    <div class="container">
+      <h1>Eat Well. <span>Spend Less.</span></h1>
+      <p class="hero-subtitle">Budget-friendly meal prep recipes, weekly plans, and tips to help you save time and money in the kitchen.</p>
+      <div class="hero-cta">
+        <a href="/blog" class="btn btn-primary">Browse Recipes</a>
+        <a href="/meal-plans" class="btn btn-secondary">Weekly Meal Plans</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number">$3</span>
+          <span class="stat-label">Avg. cost per meal</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">2hrs</span>
+          <span class="stat-label">Weekly prep time</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number">5</span>
+          <span class="stat-label">Days of meals</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-section">
+    <div class="container">
+      <h2>Latest Recipes</h2>
+      <div class="posts-grid">
+        {posts.map(post => (
+          <article class="post-card">
+            <a href={`/blog/${post.slug}`}>
+              {post.data.heroImage && (
+                <img src={post.data.heroImage} alt={post.data.heroAlt || post.data.title} loading="lazy" />
+              )}
+              <div class="post-card-content">
+                {post.data.costPerServing && (
+                  <span class="cost-badge">${post.data.costPerServing}/serving</span>
+                )}
+                <h3>{post.data.title}</h3>
+                <p>{post.data.excerpt}</p>
+                <div class="post-meta">
+                  {post.data.prepTime && <span>⏱️ {post.data.prepTime}</span>}
+                  {post.data.servings && <span>🍽️ {post.data.servings} servings</span>}
+                </div>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+      <div class="section-cta">
+        <a href="/blog" class="btn btn-outline">View All Recipes →</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="budget-tiers">
+    <div class="container">
+      <h2>Meal Prep By Budget</h2>
+      <div class="tier-grid">
+        <a href="/meal-plans/25-dollar-week" class="tier-card">
+          <span class="tier-price">$25</span>
+          <span class="tier-label">per week</span>
+          <p>College student budget</p>
+        </a>
+        <a href="/meal-plans/50-dollar-week" class="tier-card featured">
+          <span class="tier-badge">Most Popular</span>
+          <span class="tier-price">$50</span>
+          <span class="tier-label">per week</span>
+          <p>Single person, balanced meals</p>
+        </a>
+        <a href="/meal-plans/75-dollar-week" class="tier-card">
+          <span class="tier-price">$75</span>
+          <span class="tier-label">per week</span>
+          <p>Couples or variety seekers</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-box">
+        <h2>📬 Free Weekly Meal Plan</h2>
+        <p>Get a printable shopping list and 5 budget recipes delivered every Sunday.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email" required />
+          <button type="submit" class="btn btn-primary">Get Free Plan</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    background: linear-gradient(135deg, var(--color-bg-alt) 0%, #e8f0e3 100%);
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero h1 span {
+    color: var(--color-primary);
+  }
+  
+  .hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--color-text-light);
+    max-width: 600px;
+    margin: 0 auto 2rem;
+  }
+  
+  .hero-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.875rem 1.75rem;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s;
+  }
+  
+  .btn-primary {
+    background: var(--color-primary);
+    color: #fff;
+  }
+  
+  .btn-primary:hover {
+    background: var(--color-primary-dark);
+    color: #fff;
+  }
+  
+  .btn-secondary {
+    background: #fff;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+  }
+  
+  .btn-outline {
+    border: 2px solid var(--color-border);
+    color: var(--color-text);
+  }
+  
+  .btn-outline:hover {
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+  }
+  
+  .hero-stats {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .stat-number {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+  
+  .stat-label {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+  }
+  
+  .featured-section, .budget-tiers {
+    padding: 4rem 0;
+  }
+  
+  .featured-section h2, .budget-tiers h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+  
+  .post-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .post-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  }
+  
+  .post-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0;
+  }
+  
+  .post-card-content {
+    padding: 1.25rem;
+  }
+  
+  .post-card h3 {
+    font-size: 1.125rem;
+    margin: 0.5rem 0;
+  }
+  
+  .post-card p {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .post-meta {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+    color: var(--color-text-light);
+  }
+  
+  .section-cta {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .tier-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .tier-card {
+    background: #fff;
+    border: 2px solid var(--color-border);
+    border-radius: 12px;
+    padding: 2rem;
+    text-align: center;
+    transition: all 0.2s;
+    position: relative;
+  }
+  
+  .tier-card:hover {
+    border-color: var(--color-primary);
+  }
+  
+  .tier-card.featured {
+    border-color: var(--color-primary);
+    box-shadow: 0 4px 20px rgba(45, 90, 39, 0.15);
+  }
+  
+  .tier-badge {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-primary);
+    color: #fff;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  
+  .tier-price {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--color-primary);
+  }
+  
+  .tier-label {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+  }
+  
+  .tier-card p {
+    margin-top: 0.5rem;
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+  }
+  
+  .newsletter {
+    padding: 4rem 0;
+    background: var(--color-bg-alt);
+  }
+  
+  .newsletter-box {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .newsletter-box h2 {
+    margin-top: 0;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 0.875rem 1rem;
+    border: 2px solid var(--color-border);
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .hero h1 { font-size: 2.5rem; }
+    .hero-cta { flex-direction: column; }
+    .hero-stats { flex-direction: column; gap: 1.5rem; }
+    .tier-grid { grid-template-columns: 1fr; }
+    .newsletter-form { flex-direction: column; }
+  }
+</style>

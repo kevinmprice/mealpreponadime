@@ -1,0 +1,200 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+}
+
+const { title, description = "Budget-friendly meal prep recipes, tips, and shopping lists. Save time and money with our weekly meal prep guides.", image = "/images/og-default.jpg" } = Astro.props;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalURL} />
+  
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonicalURL} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={new URL(image, Astro.site)} />
+  
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={new URL(image, Astro.site)} />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <title>{title}</title>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <nav class="nav">
+        <a href="/" class="logo">
+          <span class="logo-icon">🥗</span>
+          <span class="logo-text">MealPrep<strong>OnADime</strong></span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="/blog">Recipes</a></li>
+          <li><a href="/meal-plans">Meal Plans</a></li>
+          <li><a href="/guides">Guides</a></li>
+          <li><a href="/about">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <slot />
+  </main>
+  
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-icon">🥗</span>
+          <span>MealPrepOnADime</span>
+          <p>Helping you eat well on a budget, one meal prep at a time.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Recipes</h4>
+            <a href="/blog">All Recipes</a>
+            <a href="/blog?category=budget">Budget Meals</a>
+            <a href="/blog?category=freezer">Freezer Meals</a>
+          </div>
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <a href="/meal-plans">Weekly Meal Plans</a>
+            <a href="/guides">Beginner Guides</a>
+            <a href="/tools">Kitchen Tools</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; {new Date().getFullYear()} MealPrepOnADime. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+<style>
+  .site-header {
+    background: #fff;
+    border-bottom: 1px solid var(--color-border);
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    color: var(--color-text);
+  }
+  
+  .logo-icon {
+    font-size: 1.5rem;
+  }
+  
+  .logo-text strong {
+    color: var(--color-primary);
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    color: var(--color-text);
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: var(--color-primary);
+  }
+  
+  .site-footer {
+    background: var(--color-bg-alt);
+    border-top: 1px solid var(--color-border);
+    padding: 3rem 0 1.5rem;
+    margin-top: 4rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-brand p {
+    color: var(--color-text-light);
+    margin-top: 0.5rem;
+    max-width: 300px;
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 4rem;
+  }
+  
+  .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .footer-col h4 {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-col a {
+    color: var(--color-text-light);
+    font-size: 0.9rem;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid var(--color-border);
+    padding-top: 1.5rem;
+    text-align: center;
+    color: var(--color-text-light);
+    font-size: 0.875rem;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links { display: none; }
+    .footer-content { flex-direction: column; }
+    .footer-links { gap: 2rem; }
+  }
+</style>
