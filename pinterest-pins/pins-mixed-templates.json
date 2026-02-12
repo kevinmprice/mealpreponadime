@@ -1,0 +1,98 @@
+[
+  {
+    "id": "pin_001",
+    "postSlug": "meal-prep-beginners-guide",
+    "template": "boldOverlay",
+    "headline": "Meal Prep 101: Complete Beginner Guide",
+    "badge": "2 HOUR PREP",
+    "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=1200"
+  },
+  {
+    "id": "pin_002",
+    "postSlug": "meal-prep-beginners-guide",
+    "template": "whiteCard",
+    "headline": "How to Start Meal Prepping",
+    "subtitle": "Save time and money",
+    "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=1200"
+  },
+  {
+    "id": "pin_003",
+    "postSlug": "25-dollar-weekly-meal-prep-plan",
+    "template": "boldOverlay",
+    "headline": "$25 Weekly Meal Prep Plan",
+    "badge": "$1.67 PER MEAL",
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200"
+  },
+  {
+    "id": "pin_004",
+    "postSlug": "25-dollar-weekly-meal-prep-plan",
+    "template": "whiteCard",
+    "headline": "Eat Well on $25 a Week",
+    "subtitle": "Complete meal plan inside",
+    "image": "https://images.unsplash.com/photo-1498837167922-ddd27525d352?w=1200"
+  },
+  {
+    "id": "pin_005",
+    "postSlug": "25-dollar-weekly-meal-prep-plan",
+    "template": "boldOverlay",
+    "headline": "How I Eat for Under $4 a Day",
+    "badge": "BUDGET MEAL PREP",
+    "image": "https://images.unsplash.com/photo-1547592180-85f173990554?w=1200"
+  },
+  {
+    "id": "pin_006",
+    "postSlug": "50-dollar-weekly-meal-prep-plan",
+    "template": "whiteCard",
+    "headline": "$50 Weekly Meal Plan",
+    "subtitle": "21 meals plus snacks",
+    "image": "https://images.unsplash.com/photo-1543353071-873f17a7a088?w=1200"
+  },
+  {
+    "id": "pin_007",
+    "postSlug": "50-dollar-weekly-meal-prep-plan",
+    "template": "boldOverlay",
+    "headline": "The $50 Balanced Meal Plan",
+    "badge": "$2.38 PER SERVING",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200"
+  },
+  {
+    "id": "pin_008",
+    "postSlug": "best-meal-prep-containers-2026",
+    "template": "boldOverlay",
+    "headline": "Best Meal Prep Containers 2026",
+    "badge": "WE TESTED 15 BRANDS",
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=1200"
+  },
+  {
+    "id": "pin_009",
+    "postSlug": "best-meal-prep-containers-2026",
+    "template": "whiteCard",
+    "headline": "Containers That Actually Work",
+    "subtitle": "Tested and ranked",
+    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?w=1200"
+  },
+  {
+    "id": "pin_010",
+    "postSlug": "15-cheap-meal-prep-recipes-under-2-dollars",
+    "template": "whiteCard",
+    "headline": "15 Meals Under $2 Each",
+    "subtitle": "Budget recipes that taste great",
+    "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=1200"
+  },
+  {
+    "id": "pin_011",
+    "postSlug": "15-cheap-meal-prep-recipes-under-2-dollars",
+    "template": "boldOverlay",
+    "headline": "Cheap Meals That Taste Amazing",
+    "badge": "UNDER $2 EACH",
+    "image": "https://images.unsplash.com/photo-1529042410759-befb1204b468?w=1200"
+  },
+  {
+    "id": "pin_012",
+    "postSlug": "15-cheap-meal-prep-recipes-under-2-dollars",
+    "template": "whiteCard",
+    "headline": "15 Budget Meal Prep Recipes",
+    "subtitle": "Save money eating well",
+    "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=1200"
+  }
+]

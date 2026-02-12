@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f5f5f5;
+      padding: 40px;
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .pin {
+      width: 400px;
+      height: 600px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      position: relative;
+    }
+    
+    /* Style 1: Bold Text Overlay */
+    .pin-1 {
+      background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.7) 100%), 
+                  url('https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=800') center/cover;
+    }
+    
+    .pin-1 .content {
+      position: absolute;
+      bottom: 40px;
+      left: 30px;
+      right: 30px;
+      color: white;
+    }
+    
+    .pin-1 h1 {
+      font-size: 42px;
+      font-weight: 800;
+      line-height: 1.1;
+      margin: 0 0 15px 0;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    }
+    
+    .pin-1 .badge {
+      background: #22c55e;
+      color: white;
+      padding: 8px 20px;
+      border-radius: 25px;
+      font-weight: 700;
+      font-size: 18px;
+      display: inline-block;
+    }
+    
+    /* Style 2: Card Overlay */
+    .pin-2 {
+      background: url('https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=800') center/cover;
+    }
+    
+    .pin-2 .card {
+      position: absolute;
+      bottom: 30px;
+      left: 20px;
+      right: 20px;
+      background: white;
+      border-radius: 12px;
+      padding: 25px;
+      text-align: center;
+    }
+    
+    .pin-2 h1 {
+      font-size: 32px;
+      font-weight: 800;
+      color: #1a1a1a;
+      margin: 0 0 10px 0;
+      line-height: 1.2;
+    }
+    
+    .pin-2 p {
+      color: #666;
+      font-size: 16px;
+      margin: 0 0 15px 0;
+    }
+    
+    .pin-2 .cta {
+      background: #e11d48;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-weight: 700;
+      font-size: 14px;
+      text-transform: uppercase;
+      display: inline-block;
+    }
+    
+    /* Style 3: Split Design */
+    .pin-3 {
+      background: #2d5a27;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .pin-3 .image-section {
+      height: 55%;
+      background: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=800') center/cover;
+    }
+    
+    .pin-3 .text-section {
+      height: 45%;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+    
+    .pin-3 h1 {
+      font-size: 34px;
+      font-weight: 800;
+      margin: 0 0 15px 0;
+      line-height: 1.2;
+    }
+    
+    .pin-3 .stats {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 15px;
+    }
+    
+    .pin-3 .stat {
+      text-align: center;
+    }
+    
+    .pin-3 .stat-num {
+      font-size: 28px;
+      font-weight: 800;
+      color: #f4a261;
+    }
+    
+    .pin-3 .stat-label {
+      font-size: 12px;
+      opacity: 0.8;
+    }
+    
+    /* Style 4: Listicle */
+    .pin-4 {
+      background: #fff5e6;
+      padding: 35px;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .pin-4 .header {
+      background: #e76f51;
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      margin-bottom: 25px;
+    }
+    
+    .pin-4 h1 {
+      font-size: 28px;
+      font-weight: 800;
+      margin: 0;
+      line-height: 1.2;
+    }
+    
+    .pin-4 .list {
+      flex: 1;
+    }
+    
+    .pin-4 .item {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 15px 0;
+      border-bottom: 2px dashed #ddd;
+    }
+    
+    .pin-4 .num {
+      width: 40px;
+      height: 40px;
+      background: #2d5a27;
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: 18px;
+    }
+    
+    .pin-4 .item-text {
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+    }
+    
+    .pin-4 .footer {
+      text-align: center;
+      margin-top: 20px;
+      color: #666;
+      font-size: 14px;
+    }
+    
+    .pin-4 .logo {
+      font-weight: 800;
+      color: #2d5a27;
+    }
+  </style>
+</head>
+<body>
+  <!-- Style 1: Bold Text Overlay -->
+  <div class="pin pin-1">
+    <div class="content">
+      <div class="badge">$1.67/MEAL</div>
+      <h1>$25 Weekly Meal Prep Plan</h1>
+    </div>
+  </div>
+  
+  <!-- Style 2: Card Overlay -->
+  <div class="pin pin-2">
+    <div class="card">
+      <h1>Best Meal Prep Containers 2026</h1>
+      <p>We tested 15 brands — here's what works</p>
+      <div class="cta">See the Winners →</div>
+    </div>
+  </div>
+  
+  <!-- Style 3: Split Design -->
+  <div class="pin pin-3">
+    <div class="image-section"></div>
+    <div class="text-section">
+      <h1>The $50 Weekly Meal Plan</h1>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-num">21</div>
+          <div class="stat-label">MEALS</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">$2.38</div>
+          <div class="stat-label">PER SERVING</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">2.5</div>
+          <div class="stat-label">HOURS PREP</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Style 4: Listicle -->
+  <div class="pin pin-4">
+    <div class="header">
+      <h1>15 Meals Under $2 Each</h1>
+    </div>
+    <div class="list">
+      <div class="item">
+        <div class="num">1</div>
+        <div class="item-text">Chicken Rice Bowls</div>
+      </div>
+      <div class="item">
+        <div class="num">2</div>
+        <div class="item-text">Black Bean Tacos</div>
+      </div>
+      <div class="item">
+        <div class="num">3</div>
+        <div class="item-text">Egg Fried Rice</div>
+      </div>
+      <div class="item">
+        <div class="num">4</div>
+        <div class="item-text">Lentil Soup</div>
+      </div>
+      <div class="item">
+        <div class="num">5</div>
+        <div class="item-text">Veggie Pasta Bake</div>
+      </div>
+    </div>
+    <div class="footer">
+      + 10 more recipes at<br>
+      <span class="logo">MealPrepOnADime.com</span>
+    </div>
+  </div>
+</body>
+</html>
