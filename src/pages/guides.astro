@@ -1,0 +1,116 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Meal Prep Guides — MealPrepOnADime" description="Learn how to meal prep like a pro with our comprehensive guides.">
+  <div class="container">
+    <header class="page-header">
+      <h1>Meal Prep Guides</h1>
+      <p>Everything you need to know to become a meal prep pro.</p>
+    </header>
+    
+    <div class="guides-grid">
+      <a href="/blog/meal-prep-beginners-guide" class="guide-card">
+        <span class="guide-icon">📚</span>
+        <h2>Meal Prep 101</h2>
+        <p>The complete beginner's guide to meal prepping. Start here!</p>
+        <span class="link">Read Guide →</span>
+      </a>
+      
+      <a href="/blog/best-meal-prep-containers-2026" class="guide-card">
+        <span class="guide-icon">📦</span>
+        <h2>Best Containers</h2>
+        <p>We tested 15 brands. Here's what actually works.</p>
+        <span class="link">Read Guide →</span>
+      </a>
+      
+      <a href="/blog/15-cheap-meal-prep-recipes-under-2-dollars" class="guide-card">
+        <span class="guide-icon">💰</span>
+        <h2>Budget Recipes</h2>
+        <p>15 complete meals under $2 per serving.</p>
+        <span class="link">Read Guide →</span>
+      </a>
+      
+      <div class="guide-card coming-soon">
+        <span class="guide-icon">❄️</span>
+        <h2>Freezer Meals</h2>
+        <p>How to batch cook and freeze meals for months.</p>
+        <span class="link">Coming Soon</span>
+      </div>
+      
+      <div class="guide-card coming-soon">
+        <span class="guide-icon">🛒</span>
+        <h2>Grocery Shopping</h2>
+        <p>Save 30%+ on groceries with these strategies.</p>
+        <span class="link">Coming Soon</span>
+      </div>
+      
+      <div class="guide-card coming-soon">
+        <span class="guide-icon">⏰</span>
+        <h2>Time-Saving Tips</h2>
+        <p>Cut your prep time in half with these hacks.</p>
+        <span class="link">Coming Soon</span>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .page-header {
+    text-align: center;
+    padding: 3rem 0;
+  }
+  
+  .page-header p {
+    color: var(--color-text-light);
+    font-size: 1.125rem;
+  }
+  
+  .guides-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    padding-bottom: 4rem;
+  }
+  
+  .guide-card {
+    background: #fff;
+    border: 1px solid var(--color-border);
+    border-radius: 12px;
+    padding: 2rem;
+    transition: all 0.2s;
+  }
+  
+  .guide-card:hover:not(.coming-soon) {
+    border-color: var(--color-primary);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  }
+  
+  .guide-card.coming-soon {
+    opacity: 0.6;
+  }
+  
+  .guide-icon {
+    font-size: 2.5rem;
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  .guide-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .guide-card p {
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+  }
+  
+  .link {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+</style>
