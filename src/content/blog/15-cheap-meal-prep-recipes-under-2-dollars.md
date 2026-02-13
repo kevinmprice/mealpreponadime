@@ -22,6 +22,8 @@ draft: false
 
 Eating well on a budget isn't about deprivation — it's about smart ingredient choices. These 15 recipes prove you can eat delicious, satisfying meals for less than a fast food value meal.
 
+New to meal prep? Our [Beginner's Guide](/blog/meal-prep-beginners-guide) covers the basics. Want a complete weekly plan? Check out our [$25](/blog/25-dollar-weekly-meal-prep-plan) or [$50](/blog/50-dollar-weekly-meal-prep-plan) meal plans.
+
 Let's dive in.
 
 ---

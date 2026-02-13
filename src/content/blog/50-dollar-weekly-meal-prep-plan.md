@@ -24,6 +24,8 @@ This is our most popular meal plan for a reason. The $50 budget hits the sweet s
 
 If you're a single person or couple looking to eat well without spending $400+/month on groceries, this plan is for you.
 
+On a tighter budget? Try our [$25 Weekly Plan](/blog/25-dollar-weekly-meal-prep-plan). New to meal prep? Start with our [Beginner's Guide](/blog/meal-prep-beginners-guide). Need containers? See our [Best Meal Prep Containers](/blog/best-meal-prep-containers-2026) guide.
+
 ## The $50 Shopping List
 
 ### Proteins

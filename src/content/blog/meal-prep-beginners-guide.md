@@ -53,7 +53,7 @@ You don't need fancy gadgets. Start with:
 
 | Item | Why You Need It | Budget Option |
 |------|-----------------|---------------|
-| **Glass containers** | Microwave-safe, no staining | $20 for 10-pack |
+| **[Glass containers](/blog/best-meal-prep-containers-2026)** | Microwave-safe, no staining | $20 for 10-pack |
 | **Sheet pans** | Roast everything at once | $15 for 2 |
 | **Large pot** | Batch cook grains, soups | $25 |
 | **Sharp knife** | Faster prep, safer cutting | $20 |
@@ -113,6 +113,8 @@ Here's a simple first prep that makes 5 lunches for under $25:
 - Soy sauce, garlic, olive oil (pantry staples)
 
 **Total: ~$14** = **$2.80 per meal**
+
+Want even cheaper? Check out our [15 recipes under $2 per serving](/blog/15-cheap-meal-prep-recipes-under-2-dollars).
 
 ### Sunday Prep (2 hours)
 
@@ -181,4 +183,6 @@ The goal isn't perfection—it's consistency. Even prepping 50% of your meals sa
 
 ---
 
-**📌 Save this guide** and check out our [Weekly Meal Plans](/meal-plans) for done-for-you shopping lists and recipes!
+**📌 Save this guide** and check out our weekly meal plans:
+- [$25 Weekly Meal Prep Plan](/blog/25-dollar-weekly-meal-prep-plan) — tight budget, big flavor
+- [$50 Weekly Meal Prep Plan](/blog/50-dollar-weekly-meal-prep-plan) — more variety, still affordable

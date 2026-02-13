@@ -21,6 +21,8 @@ draft: false
 
 The right containers can make or break your meal prep game. Bad containers leak, stain, crack, and make reheating a nightmare. Good containers last years and make meal prep effortless.
 
+New to meal prep? Start with our [Beginner's Guide to Meal Prep](/blog/meal-prep-beginners-guide) first, then come back here for gear.
+
 We tested 15 popular container sets over 8 weeks of real meal prepping. Here's what actually works.
 
 ## Best Overall: Rubbermaid Brilliance

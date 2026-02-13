@@ -24,6 +24,8 @@ Think you can't eat well on $25 a week? Think again. This meal prep plan proves 
 
 Whether you're a college student, paying off debt, or just want to slash your food budget, this plan delivers filling, nutritious meals without sacrificing flavor.
 
+New to meal prep? Check out our [Beginner's Guide](/blog/meal-prep-beginners-guide) first. Got a bit more budget? Try our [$50 Weekly Plan](/blog/50-dollar-weekly-meal-prep-plan) for more variety.
+
 ## The $25 Shopping List
 
 Here's exactly what to buy:
