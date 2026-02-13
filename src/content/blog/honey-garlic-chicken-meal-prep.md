@@ -1,198 +1,144 @@
 ---
-title: "Honey Garlic Chicken Meal Prep: Sweet, Savory & Under $3/Serving"
-excerpt: "This honey garlic chicken meal prep is the perfect balance of sweet and savory. Ready in 30 minutes, lasts all week, and costs less than $3 per serving."
-date: "2026-02-12"
+title: "Honey Garlic Chicken Meal Prep (5 Meals for $12)"
+excerpt: "Sticky, sweet, and savory honey garlic chicken thighs with rice and broccoli. This meal prep favorite costs just $2.40 per serving and takes 30 minutes to make."
+date: "2026-02-13"
 category: "Recipes"
-heroImage: "/images/blog/honey-garlic-chicken-meal-prep-1.jpg"
-heroAlt: "Honey garlic chicken meal prep with rice and broccoli in glass containers"
+heroImage: "/images/blog/honey-garlic-chicken-meal-prep.jpg"
+heroAlt: "Honey garlic chicken meal prep containers with rice and broccoli"
 prepTime: "10 minutes"
 cookTime: "20 minutes"
 servings: 5
-costPerServing: "2.80"
-calories: 425
-protein: 35
-carbs: 45
-fat: 12
-keywords: "honey garlic chicken, chicken meal prep, budget meal prep, easy chicken recipe, meal prep ideas"
+costPerServing: "2.40"
+calories: 485
+protein: 32
+carbs: 52
+fat: 16
+keywords: "honey garlic chicken, meal prep, budget chicken recipe, cheap meal prep, chicken thigh recipes, meal prep for beginners"
 ingredients:
-  - "2 lbs boneless chicken thighs"
+  - "2 lbs chicken thighs (boneless, skinless)"
   - "1/4 cup honey"
   - "3 tbsp soy sauce"
   - "4 cloves garlic, minced"
-  - "1 tbsp rice vinegar"
-  - "1 tsp sesame oil"
-  - "1 tbsp cornstarch"
-  - "2 cups jasmine rice"
-  - "2 heads broccoli"
-  - "Sesame seeds for garnish"
-  - "Salt and pepper to taste"
   - "1 tbsp olive oil"
-featured: false
+  - "2 cups white rice"
+  - "4 cups broccoli florets"
+  - "1 tbsp cornstarch"
+  - "Salt and pepper to taste"
 draft: false
 ---
 
+There's a reason honey garlic chicken is one of the most popular meal prep recipes on the internet — it's **insanely delicious**, easy to make, and ridiculously cheap. This batch makes 5 complete meals for under $12 total.
+
 ## Key Takeaways
 
-- **$2.80 per serving** — cheaper than any takeout
-- **30 minutes total** — 10 min prep, 20 min cook
-- **Lasts 5 days** in the fridge
-- **Freezer-friendly** — make a double batch
-- **Kid-approved** — the honey garlic sauce is a crowd-pleaser
+- **Total cost: ~$12** for 5 meals ($2.40 each)
+- **30 minutes** from start to finish
+- **32g protein** per serving
+- Stays fresh in the fridge for **5 days**
+- Freezer-friendly for up to **3 months**
 
-This honey garlic chicken is one of our most-requested recipes, and for good reason. The sauce caramelizes perfectly, the chicken stays juicy, and it pairs with literally anything — rice, quinoa, noodles, or just vegetables.
+## Ingredient Breakdown & Costs
 
-Let's make it.
-
----
-
-## Nutrition Facts (Per Serving)
-
-| Nutrient | Amount | % Daily Value* |
-|----------|--------|----------------|
-| **Calories** | 425 | 21% |
-| **Protein** | 35g | 70% |
-| **Carbohydrates** | 45g | 15% |
-| **Fat** | 12g | 18% |
-| **Fiber** | 3g | 12% |
-| **Sodium** | 580mg | 24% |
-| **Sugar** | 14g | — |
-
-*Based on a 2,000 calorie diet. Values are estimates based on [USDA FoodData Central](https://fdc.nal.usda.gov/).
-
----
-
-## Ingredients
-
-### For the Chicken
 | Ingredient | Amount | Cost |
 |------------|--------|------|
-| Chicken thighs (boneless) | 2 lbs | $6.00 |
-| Salt & pepper | to taste | pantry |
-| Olive oil | 1 tbsp | pantry |
-
-### For the Honey Garlic Sauce
-| Ingredient | Amount | Cost |
-|------------|--------|------|
+| Chicken thighs | 2 lbs | $5.00 |
 | Honey | 1/4 cup | $1.50 |
-| Soy sauce | 3 tbsp | $0.50 |
-| Garlic (minced) | 4 cloves | $0.30 |
-| Rice vinegar | 1 tbsp | $0.20 |
-| Sesame oil | 1 tsp | pantry |
-| Cornstarch + water | 1 tbsp each | pantry |
+| Soy sauce | 3 tbsp | $0.30 |
+| Garlic | 4 cloves | $0.25 |
+| Olive oil | 1 tbsp | $0.15 |
+| White rice | 2 cups | $1.00 |
+| Broccoli | 4 cups | $3.00 |
+| Cornstarch | 1 tbsp | $0.10 |
+| **TOTAL** | | **$11.30** |
 
-### For the Bowls
-| Ingredient | Amount | Cost |
-|------------|--------|------|
-| Jasmine rice | 2 cups | $1.00 |
-| Broccoli | 2 heads | $3.00 |
-| Sesame seeds | for garnish | pantry |
-
-**Total Cost: ~$14.00 | Cost Per Serving: $2.80**
-
----
+**Pro tip:** Buy chicken thighs in bulk when they're on sale ($1.99/lb or less) and freeze them. I've seen them as low as $1.49/lb at Walmart.
 
 ## Instructions
 
-### Step 1: Prep the Sauce (2 minutes)
+### Step 1: Prep the Sauce
 
-Whisk together honey, soy sauce, minced garlic, rice vinegar, and sesame oil in a small bowl. Set aside.
+In a small bowl, whisk together:
+- 1/4 cup honey
+- 3 tbsp soy sauce
+- 1 tbsp cornstarch
+- 2 tbsp water
 
-In a separate small bowl, mix cornstarch with water to create a slurry. Set aside.
+Set aside. This is what creates that gorgeous glossy coating.
 
-### Step 2: Cook the Chicken (15 minutes)
+### Step 2: Start the Rice
 
-1. Pat chicken thighs dry and season with salt and pepper
-2. Heat olive oil in a large skillet over medium-high heat
-3. Add chicken and cook **5-6 minutes per side** until golden and cooked through (internal temp 165°F)
-4. Remove chicken and set aside
+Add 2 cups rice and 4 cups water to a pot. Bring to a boil, then reduce heat to low, cover, and simmer for 18 minutes. Don't peek!
 
-> **⚠️ Food Safety Tip:** Always use a meat thermometer to ensure chicken reaches 165°F (74°C) internal temperature. See [USDA safe cooking temperatures](https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-minimum-internal-temperature-chart) for guidelines.
+### Step 3: Cook the Chicken
 
-### Step 3: Make the Glaze (3 minutes)
+1. Pat chicken thighs dry with paper towels (this helps them brown)
+2. Season both sides with salt and pepper
+3. Heat olive oil in a large skillet over medium-high heat
+4. Add chicken and cook **5-6 minutes per side** until golden and cooked through (165°F internal)
+5. Remove chicken and set aside
+
+### Step 4: Make the Glaze
 
 1. Lower heat to medium
-2. Pour honey garlic sauce into the same skillet
-3. Let it bubble for 1 minute
-4. Add cornstarch slurry and stir until thickened (about 1 minute)
-5. Return chicken to the pan and coat with sauce
+2. Add minced garlic to the same pan — cook 30 seconds until fragrant
+3. Pour in the honey soy mixture
+4. Stir constantly as it thickens (about 1-2 minutes)
+5. Return chicken to the pan and coat both sides with the glaze
 
-### Step 4: Prep the Sides (while chicken cooks)
+### Step 5: Steam the Broccoli
 
-**Rice:** Cook 2 cups jasmine rice according to package directions
+While the chicken is glazing, steam or microwave your broccoli until bright green and tender-crisp (about 3-4 minutes).
 
-**Broccoli:** Cut into florets, steam for 4-5 minutes until bright green and tender-crisp
+### Step 6: Assemble Your Meal Prep
 
-### Step 5: Assemble Your Meal Prep
-
-Divide into 5 containers:
-- 3/4 cup rice
-- 1 chicken thigh, sliced
-- 1 cup broccoli
-- Drizzle extra sauce on top
-- Sprinkle with sesame seeds
-
-![Honey garlic chicken meal prep assembled](/images/blog/honey-garlic-chicken-meal-prep-2.jpg)
-
----
+Divide evenly into 5 containers:
+- 1 cup cooked rice
+- 1 glazed chicken thigh
+- 3/4 cup broccoli
+- Drizzle any remaining sauce over the chicken
 
 ## Storage Tips
 
-- **Fridge:** 5 days in airtight containers
-- **Freezer:** Up to 3 months (thaw overnight in fridge)
-- **Reheating:** Microwave 2-3 minutes, or skillet for crispier chicken
+**Refrigerator:** 5 days in airtight containers. The sauce actually gets better as it soaks into the chicken.
 
-**Pro tip:** Store sauce separately if you want to keep the chicken from getting too soft. Drizzle when ready to eat.
+**Freezer:** Up to 3 months. Thaw overnight in the fridge, then reheat.
 
-According to the [FDA food storage guidelines](https://www.fda.gov/food/buy-store-serve-safe-food/refrigerator-thermometers-cold-facts-about-food-safety), cooked chicken should be stored at 40°F or below and consumed within 4 days for optimal safety.
+**Reheating:** Microwave 2-3 minutes, or until heated through. Add a splash of water before microwaving to keep the chicken moist.
 
----
+## Easy Variations
 
-## Variations
+**Spicy honey garlic:** Add 1 tsp sriracha or red pepper flakes to the sauce.
 
-**Spicy Honey Garlic:** Add 1 tsp sriracha or red pepper flakes to the sauce
+**Sesame ginger:** Add 1 tbsp sesame oil and 1 tsp fresh grated ginger.
 
-**Low-Carb Version:** Skip the rice, double the broccoli, add cauliflower rice
+**Low-carb version:** Swap rice for cauliflower rice (saves about 150 calories per serving).
 
-**Chicken Breast:** Works fine, but thighs are juicier and cheaper. Cook to 165°F internal.
+**Different protein:** This sauce works great on salmon, shrimp, or tofu too.
 
-**Sheet Pan Method:** Bake chicken at 400°F for 25 minutes, brush with sauce halfway through
+## Why Chicken Thighs?
 
----
+I always use **thighs instead of breasts** for meal prep:
 
-## Why This Recipe Works
+1. **Cheaper** — Usually $1-2/lb less than breasts
+2. **More flavorful** — The extra fat = more taste
+3. **Stays moist** — Won't dry out when reheated
+4. **Harder to overcook** — More forgiving for beginners
 
-The secret is the **cornstarch slurry**. It thickens the sauce so it clings to the chicken instead of running off. The honey caramelizes slightly in the hot pan, giving you that sticky-sweet coating you'd get at a restaurant.
+If you only have chicken breast, it'll still work — just be careful not to overcook it.
 
-Chicken thighs are essential here — they stay moist even after 5 days in the fridge. Breasts tend to dry out.
+## Nutrition Per Serving
 
----
-
-## Frequently Asked Questions
-
-### Can I use chicken breast instead of thighs?
-
-Yes, but thighs are recommended. Chicken breast tends to dry out after a few days in the fridge, while thighs stay moist. If using breast, reduce cooking time to 4-5 minutes per side and check temp at 165°F.
-
-### How do I reheat without drying out the chicken?
-
-Add a splash of water before microwaving (creates steam). Cover with a damp paper towel. Microwave in 30-second intervals. For best results, reheat in a skillet with a bit of oil.
-
-### Is this recipe gluten-free?
-
-As written, no — soy sauce contains wheat. Substitute with tamari or coconut aminos for a gluten-free version.
-
-### Can I make this in an air fryer?
-
-Yes! Air fry chicken at 380°F for 12-15 minutes, flipping halfway. Make the sauce in a pan and toss the cooked chicken in it.
-
-### How long does the sauce last?
-
-The honey garlic sauce keeps 2 weeks refrigerated in a sealed container. Make a double batch to use throughout the week.
+| Nutrient | Amount |
+|----------|--------|
+| Calories | 485 |
+| Protein | 32g |
+| Carbs | 52g |
+| Fat | 16g |
+| Fiber | 3g |
+| Sugar | 15g |
 
 ---
 
-## More Meal Prep Recipes
+This is one of those recipes that tastes like you ordered takeout but costs a fraction of the price. At **$2.40 per meal**, you're saving serious money compared to grabbing Chinese food ($12-15 per meal).
 
-- [15 Cheap Meal Prep Recipes Under $2](/blog/15-cheap-meal-prep-recipes-under-2-dollars)
-- [$25 Weekly Meal Prep Plan](/blog/25-dollar-weekly-meal-prep-plan)
-- [Meal Prep Beginner's Guide](/blog/meal-prep-beginners-guide)
+Make it this weekend. Your future self will thank you.
