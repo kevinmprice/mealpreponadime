@@ -13,6 +13,20 @@ calories: 425
 protein: 35
 carbs: 45
 fat: 12
+keywords: "honey garlic chicken, chicken meal prep, budget meal prep, easy chicken recipe, meal prep ideas"
+ingredients:
+  - "2 lbs boneless chicken thighs"
+  - "1/4 cup honey"
+  - "3 tbsp soy sauce"
+  - "4 cloves garlic, minced"
+  - "1 tbsp rice vinegar"
+  - "1 tsp sesame oil"
+  - "1 tbsp cornstarch"
+  - "2 cups jasmine rice"
+  - "2 heads broccoli"
+  - "Sesame seeds for garnish"
+  - "Salt and pepper to taste"
+  - "1 tbsp olive oil"
 featured: false
 draft: false
 ---

@@ -15,6 +15,14 @@ const { Content, headings } = await post.render();
 
 // Build recipe schema if it's a recipe post
 const isRecipe = post.data.category === 'Recipes' || post.data.prepTime || post.data.cookTime;
+
+// Generate keywords from title
+const generateKeywords = (title: string, category: string) => {
+  const base = ['meal prep', 'budget recipes', 'cheap meals', 'weekly meal prep'];
+  const titleWords = title.toLowerCase().split(' ').filter(w => w.length > 3);
+  return [...base, ...titleWords.slice(0, 5), category.toLowerCase()].join(', ');
+};
+
 const recipeSchema = isRecipe ? {
   "@context": "https://schema.org/",
   "@type": "Recipe",
@@ -26,17 +34,30 @@ const recipeSchema = isRecipe ? {
     "name": "MealPrepOnADime"
   },
   "datePublished": post.data.date,
+  "keywords": post.data.keywords || generateKeywords(post.data.title, post.data.category),
   "prepTime": post.data.prepTime ? `PT${post.data.prepTime.replace(/[^0-9]/g, '')}M` : undefined,
   "cookTime": post.data.cookTime ? `PT${post.data.cookTime.replace(/[^0-9]/g, '')}M` : undefined,
+  "totalTime": (post.data.prepTime && post.data.cookTime) ? 
+    `PT${parseInt(post.data.prepTime.replace(/[^0-9]/g, '')) + parseInt(post.data.cookTime.replace(/[^0-9]/g, ''))}M` : undefined,
   "recipeYield": post.data.servings ? `${post.data.servings} servings` : undefined,
   "recipeCategory": "Meal Prep",
   "recipeCuisine": post.data.cuisine || "American",
+  "recipeIngredient": post.data.ingredients || [
+    "See ingredients list in recipe"
+  ],
+  "recipeInstructions": post.data.instructions || [
+    {
+      "@type": "HowToStep",
+      "text": "See full instructions in recipe below"
+    }
+  ],
   "nutrition": post.data.calories ? {
     "@type": "NutritionInformation",
     "calories": `${post.data.calories} calories`,
     "proteinContent": post.data.protein ? `${post.data.protein}g` : undefined,
     "carbohydrateContent": post.data.carbs ? `${post.data.carbs}g` : undefined,
-    "fatContent": post.data.fat ? `${post.data.fat}g` : undefined
+    "fatContent": post.data.fat ? `${post.data.fat}g` : undefined,
+    "servingSize": post.data.servings ? `1 of ${post.data.servings} servings` : "1 serving"
   } : undefined,
   "aggregateRating": {
     "@type": "AggregateRating",

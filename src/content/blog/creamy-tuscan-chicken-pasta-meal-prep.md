@@ -13,6 +13,19 @@ calories: 520
 protein: 38
 carbs: 48
 fat: 18
+keywords: "tuscan chicken pasta, creamy pasta meal prep, chicken pasta recipe, budget italian recipes, meal prep pasta"
+ingredients:
+  - "1.5 lbs boneless chicken breast"
+  - "1 lb penne pasta"
+  - "1 cup heavy cream"
+  - "1/2 cup chicken broth"
+  - "1/2 cup sun-dried tomatoes, chopped"
+  - "3 cups fresh spinach"
+  - "1/2 cup parmesan cheese, grated"
+  - "4 cloves garlic, minced"
+  - "1 tsp Italian seasoning"
+  - "2 tbsp olive oil"
+  - "Salt and pepper to taste"
 featured: false
 draft: false
 ---
