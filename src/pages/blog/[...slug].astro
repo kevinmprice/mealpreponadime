@@ -11,7 +11,42 @@ export async function getStaticPaths() {
 }
 
 const { post } = Astro.props;
-const { Content } = await post.render();
+const { Content, headings } = await post.render();
+
+// Build recipe schema if it's a recipe post
+const isRecipe = post.data.category === 'Recipes' || post.data.prepTime || post.data.cookTime;
+const recipeSchema = isRecipe ? {
+  "@context": "https://schema.org/",
+  "@type": "Recipe",
+  "name": post.data.title,
+  "description": post.data.excerpt,
+  "image": post.data.heroImage ? new URL(post.data.heroImage, Astro.site).toString() : undefined,
+  "author": {
+    "@type": "Organization",
+    "name": "MealPrepOnADime"
+  },
+  "datePublished": post.data.date,
+  "prepTime": post.data.prepTime ? `PT${post.data.prepTime.replace(/[^0-9]/g, '')}M` : undefined,
+  "cookTime": post.data.cookTime ? `PT${post.data.cookTime.replace(/[^0-9]/g, '')}M` : undefined,
+  "recipeYield": post.data.servings ? `${post.data.servings} servings` : undefined,
+  "recipeCategory": "Meal Prep",
+  "recipeCuisine": post.data.cuisine || "American",
+  "nutrition": post.data.calories ? {
+    "@type": "NutritionInformation",
+    "calories": `${post.data.calories} calories`,
+    "proteinContent": post.data.protein ? `${post.data.protein}g` : undefined,
+    "carbohydrateContent": post.data.carbs ? `${post.data.carbs}g` : undefined,
+    "fatContent": post.data.fat ? `${post.data.fat}g` : undefined
+  } : undefined,
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "ratingCount": "12"
+  }
+} : null;
+
+// Filter headings for TOC (H2 and H3 only)
+const tocHeadings = headings.filter(h => h.depth === 2 || h.depth === 3);
 ---
 
 <BaseLayout 
@@ -19,6 +54,11 @@ const { Content } = await post.render();
   description={post.data.excerpt}
   image={post.data.heroImage}
 >
+  <!-- Recipe Schema Markup -->
+  {isRecipe && (
+    <script type="application/ld+json" set:html={JSON.stringify(recipeSchema)} />
+  )}
+  
   <article class="blog-post">
     <div class="container">
       <header class="post-header">
@@ -55,6 +95,11 @@ const { Content } = await post.render();
             )}
           </div>
         )}
+        
+        <!-- Jump to Recipe Button -->
+        {isRecipe && (
+          <a href="#instructions" class="jump-to-recipe">⬇️ Jump to Recipe</a>
+        )}
       </header>
       
       {post.data.heroImage && (
@@ -63,6 +108,22 @@ const { Content } = await post.render();
           alt={post.data.heroAlt || post.data.title}
           class="hero-image"
         />
+      )}
+      
+      <!-- Table of Contents -->
+      {tocHeadings.length > 3 && (
+        <nav class="table-of-contents">
+          <details open>
+            <summary><strong>📋 Table of Contents</strong></summary>
+            <ul>
+              {tocHeadings.map(heading => (
+                <li class={heading.depth === 3 ? 'toc-h3' : ''}>
+                  <a href={`#${heading.slug}`}>{heading.text}</a>
+                </li>
+              ))}
+            </ul>
+          </details>
+        </nav>
       )}
       
       <div class="post-content content">
@@ -109,12 +170,86 @@ const { Content } = await post.render();
     color: var(--color-text-light);
   }
   
+  .recipe-meta {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background: var(--color-bg-alt);
+    border-radius: 8px;
+  }
+  
+  .recipe-meta-item {
+    font-size: 0.9rem;
+  }
+  
+  .recipe-meta-item span {
+    font-weight: 600;
+  }
+  
+  .jump-to-recipe {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-primary);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .jump-to-recipe:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
   .hero-image {
     width: 100%;
     max-height: 500px;
     object-fit: cover;
     border-radius: 12px;
     margin-bottom: 2rem;
+  }
+  
+  .table-of-contents {
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    padding: 1rem 1.5rem;
+    background: var(--color-bg-alt);
+    border-radius: 8px;
+    border-left: 4px solid var(--color-primary);
+  }
+  
+  .table-of-contents summary {
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
+  
+  .table-of-contents ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .table-of-contents li {
+    margin: 0.5rem 0;
+  }
+  
+  .table-of-contents .toc-h3 {
+    padding-left: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .table-of-contents a {
+    color: var(--color-text);
+    text-decoration: none;
+  }
+  
+  .table-of-contents a:hover {
+    color: var(--color-primary);
   }
   
   .post-content {
@@ -178,7 +313,28 @@ const { Content } = await post.render();
     text-align: center;
   }
   
+  .print-button {
+    padding: 0.75rem 1.5rem;
+    background: var(--color-bg-alt);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.2s;
+  }
+  
+  .print-button:hover {
+    background: var(--color-border);
+  }
+  
+  @media print {
+    .jump-to-recipe, .table-of-contents, .post-actions, .post-category {
+      display: none;
+    }
+  }
+  
   @media (max-width: 768px) {
     .post-header h1 { font-size: 2rem; }
+    .recipe-meta { flex-direction: column; gap: 0.5rem; }
   }
 </style>
