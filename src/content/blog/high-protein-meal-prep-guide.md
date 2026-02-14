@@ -1,6 +1,6 @@
 ---
 title: "High Protein Meal Prep: 20+ Easy Ideas to Hit Your Goals"
-excerpt: "Build muscle and stay full with these high protein meal prep ideas. From chicken and beef to vegetarian options, get a week of protein-packed meals ready in under 2 hours."
+excerpt: "High protein meal prep ideas: chicken, beef, and vegetarian options. Get a week of meals ready in under 2 hours."
 category: "Meal Prep"
 date: "2026-02-14"
 readTime: "12 min read"

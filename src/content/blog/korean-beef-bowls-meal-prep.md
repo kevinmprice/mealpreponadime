@@ -1,6 +1,6 @@
 ---
 title: "Korean Beef Bowls: The 20-Minute Meal Prep That'll Change Your Week"
-excerpt: "Sweet, savory, and stupid easy. These Korean beef bowls meal prep in under 30 minutes and cost about $2.50 per serving. My go-to when I need something that actually tastes good."
+excerpt: "Korean beef bowls: 20-minute meal prep, $2.50/serving. My go-to when I need something that actually tastes good."
 date: "2026-02-14"
 heroImage: "/images/blog/korean-beef-bowls-meal-prep.jpg"
 heroAlt: "Korean beef bowl with rice, ground beef in gochujang glaze, pickled cucumbers, and a fried egg"

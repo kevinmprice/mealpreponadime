@@ -1,6 +1,6 @@
 ---
 title: "Meal Prep 101: The Complete Beginner's Guide to Saving Time & Money"
-excerpt: "Learn how to meal prep like a pro. This step-by-step guide covers everything from planning to storage, helping you save hours and hundreds of dollars every month."
+excerpt: "Meal prep for beginners: step-by-step guide covering planning to storage. Save hours and hundreds monthly."
 date: "2026-02-11"
 category: "Guides"
 heroImage: "/images/blog/meal-prep-beginners-guide.jpg"
