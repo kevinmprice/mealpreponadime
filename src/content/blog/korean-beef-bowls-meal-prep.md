@@ -2,17 +2,18 @@
 title: "Korean Beef Bowls: The 20-Minute Meal Prep That'll Change Your Week"
 excerpt: "Korean beef bowls: 20-minute meal prep, $2.50/serving. My go-to when I need something that actually tastes good."
 date: "2026-02-14"
+category: "Recipes"
 heroImage: "/images/blog/korean-beef-bowls-meal-prep.jpg"
 heroAlt: "Korean beef bowl with rice, ground beef in gochujang glaze, pickled cucumbers, and a fried egg"
 prepTime: "10 mins"
 cookTime: "15 mins"
 servings: 5
-costPerServing: "$2.50"
+costPerServing: "2.50"
 calories: 485
 protein: 28
 carbs: 52
 fat: 18
-keywords: ["korean beef bowls", "korean beef bowl meal prep", "ground beef meal prep", "asian meal prep", "budget meal prep", "cheap dinner ideas"]
+keywords: "korean beef bowls, korean beef bowl meal prep, ground beef meal prep, asian meal prep, budget meal prep, cheap dinner ideas"
 ingredients:
   - "1.5 lbs ground beef (80/20)"
   - "4 cups cooked jasmine rice"

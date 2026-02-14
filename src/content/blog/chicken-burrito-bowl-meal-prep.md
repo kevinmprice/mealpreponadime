@@ -1,7 +1,7 @@
 ---
 title: "Chicken Burrito Bowl Meal Prep: 5 Days of Lunches in 45 Minutes"
 excerpt: "Make 5 delicious chicken burrito bowls for under $15. Cilantro lime rice, seasoned chicken, black beans, and all your favorite toppings — perfect for meal prep."
-category: "Recipe"
+category: "Recipes"
 date: "2026-02-14"
 readTime: "8 min read"
 icon: "🌯"
@@ -12,8 +12,10 @@ heroAlt: "Chicken burrito bowl meal prep containers with rice, beans, corn and c
 prepTime: "15 min"
 cookTime: "30 min"
 servings: 5
+costPerServing: "3.00"
 calories: 485
-protein: "38g"
+protein: 38
+keywords: "chicken burrito bowl, burrito bowl meal prep, chipotle copycat, healthy meal prep, mexican meal prep"
 ---
 
 Chipotle runs like $13 a bowl now. Sometimes more if you dare ask for guac.
