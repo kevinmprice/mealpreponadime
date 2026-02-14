@@ -186,3 +186,25 @@ The goal isn't perfection—it's consistency. Even prepping 50% of your meals sa
 **📌 Save this guide** and check out our weekly meal plans:
 - [$25 Weekly Meal Prep Plan](/blog/25-dollar-weekly-meal-prep-plan) — tight budget, big flavor
 - [$50 Weekly Meal Prep Plan](/blog/50-dollar-weekly-meal-prep-plan) — more variety, still affordable
+
+---
+
+## Frequently Asked Questions
+
+### How long does meal prep food last in the fridge?
+Most meal prepped food stays fresh for 4-5 days in the refrigerator when stored in airtight containers. Proteins like chicken can last up to 4 days, while rice and grains stay good for 5-6 days.
+
+### Can I freeze meal prep?
+Yes! Most meal prep recipes freeze well for 2-3 months. Store in freezer-safe containers, leaving room for expansion. Thaw overnight in the fridge before reheating.
+
+### How do I prevent meal prep from getting soggy?
+Store sauces and dressings separately from other ingredients. Keep wet ingredients away from dry ones. Wait for food to cool completely before sealing containers.
+
+### What containers are best for meal prep?
+Glass containers with snap-lock lids are ideal — they're microwave-safe, don't stain, and last longer. If using plastic, choose BPA-free containers labeled microwave-safe.
+
+### How much money can I save with meal prep?
+Most people save $50-150 per week compared to eating out or ordering delivery. A meal prep lunch costs $2-4 versus $12-15 for restaurant food.
+
+### When is the best day to meal prep?
+Sunday is the most popular meal prep day, giving you food ready for the work week. Some people prefer splitting prep between Sunday and Wednesday for fresher mid-week meals.

@@ -251,3 +251,25 @@ Soak in baking soda + water overnight. For stubborn stains, leave container in d
 **Ready to start meal prepping?** Check out our [Meal Prep 101 Guide](/blog/meal-prep-beginners-guide) for everything you need to know.
 
 *This post contains affiliate links. We may earn a commission if you purchase through our links, at no extra cost to you. We only recommend products we actually use and love.*
+
+---
+
+## Frequently Asked Questions
+
+### Are glass or plastic containers better for meal prep?
+Glass containers are more durable, don't stain, and are safer for reheating. Plastic is lighter and cheaper but can warp over time. For long-term use, glass is worth the investment.
+
+### Can I put meal prep containers in the microwave?
+Glass containers are always microwave-safe. For plastic, check for the microwave-safe symbol on the bottom. Remove lids before microwaving to prevent warping and allow steam to escape.
+
+### How many containers do I need for meal prep?
+Start with 10-15 containers for a week's worth of lunches and dinners. Having extras means you can prep without washing containers mid-week. A mix of sizes (1, 2, and 3 compartment) offers flexibility.
+
+### Do meal prep containers need to be airtight?
+Yes! Airtight seals keep food fresh longer and prevent leaks. Look for containers with locking lids or silicone-sealed rims. Test by filling with water and tipping upside down.
+
+### How do I remove stains from plastic containers?
+Soak in a mixture of baking soda and warm water for 30 minutes. For stubborn stains, make a paste with baking soda and scrub. Prevent staining by spraying containers with cooking spray before adding tomato-based foods.
+
+### Are divided containers worth it?
+Divided containers (2-3 compartments) keep foods separate and prevent sogginess. They're perfect for meals with sauces or wet ingredients you want to keep away from rice or salads.
