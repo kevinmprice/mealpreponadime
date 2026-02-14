@@ -39,9 +39,9 @@ draft: false
 
 ## Why This Recipe Works for Meal Prep
 
-Turkey taco bowls hit the meal prep sweet spot: they're fast to make, cheap, high in protein, and actually taste *better* after sitting in the fridge for a day. The flavors meld together, and the rice soaks up all that seasoning.
+Turkey taco bowls hit the meal prep sweet spot: they're fast to make, cheap, high in protein, and actually taste *better* after sitting in the fridge for a day. The flavors meld together, and the rice soaks up all that seasoning. If you're new to this, our [beginner's guide](/blog/meal-prep-beginners-guide) covers all the basics.
 
-Plus, ground turkey is usually $4-5/lb — way cheaper than chicken breast while giving you nearly the same protein.
+Plus, ground turkey is usually $4-5/lb — way cheaper than chicken breast while giving you nearly the same protein. Want to go even cheaper? Check out our [15 recipes under $2](/blog/15-cheap-meal-prep-recipes-under-2-dollars) or the [$25 weekly meal plan](/blog/25-dollar-weekly-meal-prep-plan).
 
 ---
 

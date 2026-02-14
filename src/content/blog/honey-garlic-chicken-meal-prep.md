@@ -29,6 +29,8 @@ draft: false
 
 There's a reason honey garlic chicken is one of the most popular meal prep recipes on the internet — it's **insanely delicious**, easy to make, and ridiculously cheap. This batch makes 5 complete meals for under $12 total.
 
+New to meal prep? Start with our [beginner's guide](/blog/meal-prep-beginners-guide) to get the basics down. Already a pro? Keep reading.
+
 ## Key Takeaways
 
 - **Total cost: ~$12** for 5 meals ($2.40 each)
@@ -51,7 +53,7 @@ There's a reason honey garlic chicken is one of the most popular meal prep recip
 | Cornstarch | 1 tbsp | $0.10 |
 | **TOTAL** | | **$11.30** |
 
-**Pro tip:** Buy chicken thighs in bulk when they're on sale ($1.99/lb or less) and freeze them. I've seen them as low as $1.49/lb at Walmart.
+**Pro tip:** Buy chicken thighs in bulk when they're on sale ($1.99/lb or less) and freeze them. I've seen them as low as $1.49/lb at Walmart. Need the right containers? Check out our [best meal prep containers guide](/blog/best-meal-prep-containers-2026).
 
 ## Instructions
 
