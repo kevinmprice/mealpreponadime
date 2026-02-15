@@ -3,7 +3,7 @@ title: "Overnight Oats Meal Prep: 5 Flavors, 10 Minutes, Zero Morning Effort"
 excerpt: "Make a week of breakfasts in 10 minutes flat. Five overnight oats recipes that taste like dessert but won't wreck your budget."
 date: "2026-02-14"
 category: "Breakfast"
-heroImage: "/images/recipes/overnight-oats-meal-prep.jpg"
+heroImage: "/images/blog/overnight-oats-meal-prep-5-flavors.jpg"
 heroAlt: "Mason jars of overnight oats with berries and toppings"
 readTime: "7 min read"
 featured: true
