@@ -195,6 +195,14 @@ That's it. That's the pitch.
 
 Start with peanut butter banana — it's the crowd favorite for a reason — and branch out from there.
 
+## More Meal Prep Ideas
+
+Got breakfast handled? Now tackle lunch and dinner:
+
+- [Meal Prep Beginner's Guide](/blog/meal-prep-beginners-guide) — If you're just starting out
+- [15 Cheap Recipes Under $2](/blog/15-cheap-meal-prep-recipes-under-2-dollars) — Budget-friendly ideas
+- [Best Containers for Meal Prep](/blog/best-meal-prep-containers-2026) — Glass vs plastic, sizes, recommendations
+
 ---
 
 *What's your go-to overnight oats combo? Drop your weird flavor experiments in the comments. Always looking for new ideas.*

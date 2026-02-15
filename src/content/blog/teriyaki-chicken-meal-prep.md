@@ -128,3 +128,11 @@ The sauce actually gets *more* flavorful as it sits. The flavors meld together. 
 That's it. About 35 minutes of actual work and you've got lunches for the week. The cost per serving works out to under $3, you're getting nearly 40g of protein per container, and it legitimately tastes good.
 
 I've been making this pretty much every other week for months now. It doesn't get old. Make it.
+
+## More Asian-Inspired Meal Prep
+
+If you're into these flavors, try these next:
+
+- [Korean Beef Bowls](/blog/korean-beef-bowls-meal-prep) — Sweet and savory, ready in 20 minutes
+- [Honey Garlic Chicken](/blog/honey-garlic-chicken-meal-prep) — Same vibes, different sauce
+- [High Protein Meal Prep Guide](/blog/high-protein-meal-prep-guide) — More recipes if you're building muscle

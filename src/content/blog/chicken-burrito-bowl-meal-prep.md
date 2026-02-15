@@ -173,6 +173,14 @@ The real secret to meal prep isn't complicated recipes or fancy ingredients. It'
 
 Burrito bowls hit that mark every time.
 
+## More Bowl Recipes
+
+If you're into bowl-style meal prep (and who isn't?), check out these other favorites:
+
+- [Korean Beef Bowls](/blog/korean-beef-bowls-meal-prep) — Sweet and savory, ready in 20 minutes
+- [Teriyaki Chicken Bowls](/blog/teriyaki-chicken-meal-prep) — Another crowd pleaser
+- [High Protein Meal Prep Guide](/blog/high-protein-meal-prep-guide) — 10+ recipes if you're focused on protein
+
 ---
 
 *What's your favorite burrito bowl combo? Tag us @mealpreponadime with your creations!*
