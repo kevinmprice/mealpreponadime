@@ -4,15 +4,16 @@ excerpt: "Sticky, sweet, savory teriyaki chicken that reheats like a dream. Fina
 heroImage: "https://res.cloudinary.com/dym2t17hd/image/upload/v1771117283/mealpreponadime/blog/fiuaxz7iyhnxqumdqbmi.jpg"
 heroAlt: "Teriyaki chicken meal prep containers with rice and broccoli"
 date: "2026-02-14"
+category: "Recipes"
 prepTime: "15 mins"
 cookTime: "20 mins"
 servings: 5
-costPerServing: "$2.85"
+costPerServing: "2.85"
 calories: 465
 protein: 38
 carbs: 52
 fat: 12
-keywords: ["teriyaki chicken meal prep", "meal prep teriyaki chicken", "chicken teriyaki", "easy meal prep", "high protein meal prep", "asian meal prep"]
+keywords: "teriyaki chicken meal prep, meal prep teriyaki chicken, chicken teriyaki, easy meal prep, high protein meal prep, asian meal prep"
 ingredients:
   - "2 lbs boneless skinless chicken thighs"
   - "3 cups jasmine rice, uncooked"
