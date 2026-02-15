@@ -1,7 +1,282 @@
 {
-  "lastUpdated": "2026-02-13",
-  "headKeywords": [],
-  "longTailKeywords": [],
-  "questionKeywords": [],
-  "contentIdeas": []
+  "lastUpdated": "2026-02-15",
+  "source": "Keywords Everywhere API",
+  "creditsUsed": 30,
+  "keywords": [
+    {
+      "keyword": "chicken meal prep",
+      "volume": 9900,
+      "cpc": 0.05,
+      "competition": 0.25,
+      "trend": "up",
+      "priority": "high",
+      "contentAngle": "20 Easy Chicken Meal Prep Recipes That Last All Week"
+    },
+    {
+      "keyword": "ground beef meal prep",
+      "volume": 6600,
+      "cpc": 0.04,
+      "competition": 0.09,
+      "trend": "down",
+      "priority": "high",
+      "contentAngle": "15 Ground Beef Meal Prep Ideas Under $3 Per Serving"
+    },
+    {
+      "keyword": "lunch meal prep ideas",
+      "volume": 18100,
+      "cpc": 0.05,
+      "competition": 0.59,
+      "trend": "up",
+      "priority": "medium",
+      "contentAngle": "30 Lunch Meal Prep Ideas You'll Actually Want to Eat"
+    },
+    {
+      "keyword": "batch cooking recipes",
+      "volume": 880,
+      "cpc": 0.05,
+      "competition": 0.16,
+      "trend": "stable",
+      "priority": "high",
+      "contentAngle": "Batch Cooking 101: 25 Recipes to Feed Your Family All Week"
+    },
+    {
+      "keyword": "meal prep tips",
+      "volume": 390,
+      "cpc": 0.04,
+      "competition": 0.19,
+      "trend": "stable",
+      "priority": "high",
+      "contentAngle": "15 Meal Prep Tips That Will Save You Hours Every Week"
+    },
+    {
+      "keyword": "cheap meal prep recipes",
+      "volume": 320,
+      "cpc": 0.07,
+      "competition": 0.43,
+      "trend": "stable",
+      "priority": "high",
+      "contentAngle": "25 Cheap Meal Prep Recipes Under $2 Per Serving"
+    },
+    {
+      "keyword": "rice bowl meal prep",
+      "volume": 320,
+      "cpc": 0.05,
+      "competition": 0.25,
+      "trend": "down",
+      "priority": "high",
+      "contentAngle": "10 Rice Bowl Meal Prep Recipes That Are Cheap & Filling"
+    },
+    {
+      "keyword": "how to meal prep",
+      "volume": 4400,
+      "cpc": 0.05,
+      "competition": 0.55,
+      "trend": "down",
+      "priority": "medium",
+      "contentAngle": "How to Meal Prep: Complete Beginner's Guide (Step-by-Step)"
+    },
+    {
+      "keyword": "meal prep breakfast ideas",
+      "volume": 6600,
+      "cpc": 0.04,
+      "competition": 0.62,
+      "trend": "down",
+      "priority": "medium",
+      "contentAngle": "20 Make-Ahead Breakfast Ideas That Save You Time & Money"
+    },
+    {
+      "keyword": "30 minute meal prep",
+      "volume": 40,
+      "cpc": 0.05,
+      "competition": 0.69,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Quick 30-Minute Meal Prep Sessions for Busy People"
+    },
+    {
+      "keyword": "budget meal prep",
+      "volume": 720,
+      "cpc": 0.83,
+      "competition": 0.84,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Budget Meal Prep: How to Eat Well on $50/Week"
+    },
+    {
+      "keyword": "dinner meal prep",
+      "volume": 720,
+      "cpc": 0.11,
+      "competition": 0.76,
+      "trend": "stable",
+      "priority": "low",
+      "contentAngle": "15 Dinner Meal Prep Ideas Your Whole Family Will Love"
+    },
+    {
+      "keyword": "meal prep on a budget",
+      "volume": 720,
+      "cpc": 0.52,
+      "competition": 0.84,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Meal Prep on a Budget: Complete Guide to Eating Cheap"
+    },
+    {
+      "keyword": "freezer meal prep",
+      "volume": 6600,
+      "cpc": 0.04,
+      "competition": 0.82,
+      "trend": "stable",
+      "priority": "low",
+      "contentAngle": "Freezer Meal Prep: 20 Recipes That Freeze & Reheat Perfectly"
+    },
+    {
+      "keyword": "meal prep for beginners",
+      "volume": 1000,
+      "cpc": 0.15,
+      "competition": 0.86,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Meal Prep for Beginners: Start Here (No Experience Needed)"
+    },
+    {
+      "keyword": "weekly meal prep",
+      "volume": 5400,
+      "cpc": 0.19,
+      "competition": 0.97,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Weekly Meal Prep Plan: Sunday Prep for Easy Weeknight Dinners"
+    },
+    {
+      "keyword": "healthy meal prep",
+      "volume": 12100,
+      "cpc": 0.89,
+      "competition": 1.0,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Healthy Meal Prep Ideas That Actually Taste Good"
+    },
+    {
+      "keyword": "high protein meal prep",
+      "volume": 18100,
+      "cpc": 0.11,
+      "competition": 0.93,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "High Protein Meal Prep: 40g+ Protein Per Meal Recipes"
+    },
+    {
+      "keyword": "low carb meal prep",
+      "volume": 3600,
+      "cpc": 0.1,
+      "competition": 0.94,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Low Carb Meal Prep Ideas for Keto & Weight Loss"
+    },
+    {
+      "keyword": "vegetarian meal prep",
+      "volume": 8100,
+      "cpc": 2.0,
+      "competition": 1.0,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Vegetarian Meal Prep: Meatless Meals That Are Actually Filling"
+    },
+    {
+      "keyword": "meal prep for weight loss",
+      "volume": 12100,
+      "cpc": 1.55,
+      "competition": 0.95,
+      "trend": "stable",
+      "priority": "low",
+      "contentAngle": "Meal Prep for Weight Loss: Calorie-Controlled Recipes"
+    },
+    {
+      "keyword": "easy meal prep ideas",
+      "volume": 14800,
+      "cpc": 0.06,
+      "competition": 0.89,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Super Easy Meal Prep Ideas Even Beginners Can Do"
+    },
+    {
+      "keyword": "meal prep for the week",
+      "volume": 5400,
+      "cpc": 0.82,
+      "competition": 0.95,
+      "trend": "stable",
+      "priority": "low",
+      "contentAngle": "Complete Meal Prep for the Week: Plans, Recipes & Shopping Lists"
+    },
+    {
+      "keyword": "grocery list meal prep",
+      "volume": 1000,
+      "cpc": 0.7,
+      "competition": 0.88,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Meal Prep Grocery Lists: Printable Shopping Templates"
+    },
+    {
+      "keyword": "meal prep schedule",
+      "volume": 170,
+      "cpc": 0.36,
+      "competition": 0.77,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "The Perfect Meal Prep Schedule: When to Cook What"
+    },
+    {
+      "keyword": "meal prep for one",
+      "volume": 390,
+      "cpc": 1.59,
+      "competition": 0.96,
+      "trend": "stable",
+      "priority": "low",
+      "contentAngle": "Meal Prep for One: Single-Serving Recipes That Don't Waste Food"
+    },
+    {
+      "keyword": "family meal prep",
+      "volume": 590,
+      "cpc": 3.25,
+      "competition": 0.98,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "Family Meal Prep: Recipes Kids Will Actually Eat"
+    },
+    {
+      "keyword": "meal prep containers",
+      "volume": 60500,
+      "cpc": 0.2,
+      "competition": 0.98,
+      "trend": "up",
+      "priority": "low",
+      "contentAngle": "Best Meal Prep Containers 2026: Glass vs Plastic Comparison"
+    },
+    {
+      "keyword": "meal prep ideas",
+      "volume": 110000,
+      "cpc": 0.07,
+      "competition": 0.94,
+      "trend": "down",
+      "priority": "low",
+      "contentAngle": "100+ Meal Prep Ideas for Every Diet and Budget"
+    }
+  ],
+  "summary": {
+    "totalKeywords": 29,
+    "highPriority": 7,
+    "mediumPriority": 3,
+    "lowPriority": 19,
+    "topOpportunities": [
+      "chicken meal prep (9.9K vol, 0.25 comp) - HUGE opportunity",
+      "ground beef meal prep (6.6K vol, 0.09 comp) - BIGGEST winner",
+      "batch cooking recipes (880 vol, 0.16 comp) - underserved niche",
+      "meal prep tips (390 vol, 0.19 comp) - easy to rank",
+      "rice bowl meal prep (320 vol, 0.25 comp) - low competition"
+    ],
+    "competitorNote": "Most high-volume meal prep keywords are extremely competitive (0.9+). Focus on protein-specific and budget-specific long-tail keywords where we can actually rank."
+  }
 }
