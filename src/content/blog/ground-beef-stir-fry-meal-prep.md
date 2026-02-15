@@ -2,6 +2,7 @@
 title: "Ground Beef Stir Fry Meal Prep (Under $2 Per Serving)"
 excerpt: "This ground beef stir fry meal prep is stupid easy, tastes incredible, and costs less than a coffee. 20 minutes, 5 meals, zero excuses."
 date: "2026-02-15"
+category: "Recipes"
 heroImage: "/images/blog/ground-beef-stir-fry-meal-prep.jpg"
 heroAlt: "Ground beef stir fry with colorful vegetables in a cast iron skillet"
 prepTime: "10 min"
